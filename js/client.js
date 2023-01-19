@@ -1,4 +1,4 @@
-const socket = io('http://localhost:8000',{transports:['websocket']})
+const socket = io('https://real-time-chat-application-snowy.vercel.app/',{transports:['websocket']})
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
